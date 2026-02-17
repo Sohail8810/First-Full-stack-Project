@@ -1,7 +1,7 @@
 const exprees = require('express');
 const multer = require('multer');
 const uploadfile = require('/Backend/Backend - Project/Backend/src/services/storage.service')
-const postModel = require('/Backend/Backend - Project/Backend/src/models/post.model')
+const postModel = require('./models/post.model');
 const cors = require('cors')
 const app = exprees()
 
