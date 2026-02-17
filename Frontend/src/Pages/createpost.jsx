@@ -11,7 +11,7 @@ const navigate = useNavigate()
 
     const formData=new FormData(e.target)
 
-    axios.post("http://localhost:3000/create-post",formData)
+    axios.post("https://first-full-stack-project-backend.onrender.com/create-post",formData)
 
     .then((res)=>{
       navigate("/feed")
