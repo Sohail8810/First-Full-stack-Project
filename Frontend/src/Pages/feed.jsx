@@ -12,7 +12,7 @@ const feed = () => {
     ])
 
     useEffect(()=>{
-        axios.get( https://first-full-stack-project-backend.onrender.com/post")
+        axios.get(" https://first-full-stack-project-backend.onrender.com/post")
         .then((res)=>{
             setPosts(res.data.post)
         })
